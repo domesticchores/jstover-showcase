@@ -1,16 +1,19 @@
-import { Poppins } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
+import Footer from './footer'
 
-const poppins = Poppins({
-  weight: '300',
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
 })
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className={poppins.className}>
-      <body>{children}</body>
+    <html lang="en" className={inter.className + " overflow-x-hidden"}>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
