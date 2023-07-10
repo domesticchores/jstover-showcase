@@ -6,7 +6,7 @@ import Logo from "public/jaspera.png"
 
 export default function Footer() {
     return <section>
-      <div className='w-screen mt-12 text-white'>
+      <div className='w-screen text-white'>
         <div className='bg-gradient-to-r from-blue-400 to-blue-700 w-screen h-1.5'></div>
         <div className='w-screen h-[40vh] bg-neutral-700 text-center'>
           <div className='invert flex justify-center p-10'><Image src={Logo} alt='footer logo' style={{height:'7vh',width:'auto'}}></Image></div>

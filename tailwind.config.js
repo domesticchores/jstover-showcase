@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       //via Victor Yoalli
         'animation': {
-            'gradient-x':'gradient-x 15s ease infinite',
+            'gradient-x':'gradient-x 5s ease infinite',
         },
         'keyframes': {
             'gradient-x': {
